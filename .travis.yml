@@ -3,10 +3,6 @@ language: ruby
 rvm: 
   - "2.2.1"
 
-install:
-  gem install rails
-  gem install rake
-  
 deploy:
   provider: heroku
   api_key:
