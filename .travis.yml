@@ -4,7 +4,7 @@ rvm:
   - "2.2.1"
 
 install:
-  gem install rails "4.2.0"
+  gem install rails
   
 deploy:
   provider: heroku
