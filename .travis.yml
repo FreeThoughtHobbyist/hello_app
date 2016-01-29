@@ -5,6 +5,7 @@ rvm:
 
 install:
   gem install rails
+  gem install rake
   
 deploy:
   provider: heroku
