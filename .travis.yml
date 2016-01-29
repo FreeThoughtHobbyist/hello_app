@@ -3,6 +3,11 @@ language: ruby
 rvm: 
   - "2.2.1"
 
+# I am not yet sure whether theese commands will be needed.  will test
+# later
+# bundle install:
+#   gem install rails 4.2.0
+  
 deploy:
   provider: heroku
   api_key:
